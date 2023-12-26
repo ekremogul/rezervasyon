@@ -482,7 +482,7 @@ class Create extends Component implements HasForms, HasActions
                                     ])
                             ])
                     ])
-                    ->startOnStep(5)
+                    ->startOnStep(1)
                     ->submitAction(new HtmlString(Blade::render(<<<BLADE
     <x-filament::button
         type="submit"
